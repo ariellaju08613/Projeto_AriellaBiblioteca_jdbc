@@ -82,7 +82,7 @@ public class BibliotecaDAO {
 
             ps.setString(parameterIndex:1, bibliotecaPOJO.getNome());
             ps.setString(parameterIndex:2, bibliotecaPOJO.getEmail());
-            ps.setInt(parameterIndex:3, bibliotecaPOJO.getIdade());
+            ps.setInt(parameterIndex:3, bibliotecaPOJO.getTelefone());
             ps.setInt(parameterIndex:4, bibliotecaPOJO.getId());
 
             ps.execute();
